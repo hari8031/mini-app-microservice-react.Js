@@ -36,5 +36,7 @@ app.post("/events", async (req, res) => {
 });
 
 app.listen(4000, () => {
+  console.log('v20')
+  console.log('updtaed events')
   console.log("listening on 4000");
 });
